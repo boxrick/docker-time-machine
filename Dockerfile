@@ -1,7 +1,7 @@
 FROM ubuntu:focal
 
 
-ARG S6_VER="3.1.6.2"
+ARG S6_VER="2.2.0.3"
 
 
 ## S6 Overlay
