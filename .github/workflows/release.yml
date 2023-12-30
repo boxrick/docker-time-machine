@@ -41,6 +41,7 @@ jobs:
           # platforms: linux/amd64,linux/arm64
           platforms: linux/amd64
           labels: ${{ steps.meta.outputs.labels }}
+          repository: ${{ secrets.DOCKER_USERNAME }}/time-machine
           tags: latest
 
       - name: Sync readme from Github to Dockerhub
